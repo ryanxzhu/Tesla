@@ -4255,14 +4255,14 @@ BOOMR_check_doc_domain();
       } catch (e) {
         BOOMR.warn("getResourceTiming:" + e);
       }
-    },
-
-    /* BEGIN_DEBUG */ /**
+    }
+    /**
      * Sets the list of allowed Beacon URLs
      *
      * @param {string[]} urls List of string regular expressions
-     */
-    setBeaconUrlsAllowed: function(urls) {
+     */,
+
+    /* BEGIN_DEBUG */ setBeaconUrlsAllowed: function(urls) {
       impl.beacon_urls_allowed = urls;
     }
     /* END_DEBUG */
